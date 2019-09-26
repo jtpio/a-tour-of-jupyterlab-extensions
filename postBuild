@@ -1,0 +1,14 @@
+jupyter labextension install @jupyter-widgets/jupyterlab-manager \
+                             @jupyterlab/git \
+                             @jupyterlab/github \
+                             @jupyterlab/toc \
+                             jupyterlab-python-file \
+                             jupyterlab-python-bytecode \
+                             jupyterlab-kernelspy \
+                             @jupyter-widgets/jupyterlab-sidecar \
+                             jupyterlab-drawio \
+                             jupyter-leaflet \
+                             @parente/jupyterlab-quickopen
+
+jupyter serverextension enable --py jupyterlab_git
+

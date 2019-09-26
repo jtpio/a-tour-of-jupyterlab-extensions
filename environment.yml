@@ -1,0 +1,13 @@
+name: pydata-berlin-2019
+channels:
+- conda-forge
+dependencies:
+- jupyterlab=1
+- nbdime
+- pip
+- python=3.7
+- pip:
+  - jupyterlab-git
+  - jupyterlab-quickopen
+  - sidecar
+

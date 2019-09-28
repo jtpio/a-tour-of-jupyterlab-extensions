@@ -8,7 +8,12 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              @jupyter-widgets/jupyterlab-sidecar \
                              jupyterlab-drawio \
                              jupyter-leaflet \
-                             @parente/jupyterlab-quickopen
+                             @parente/jupyterlab-quickopen \
+                             jupyterlab-topbar-extension \
+                             jupyterlab-system-monitor \
+                             jupyterlab-topbar-text \
+                             jupyterlab-logout \
+                             jupyterlab-theme-toggle
 
 jupyter serverextension enable --py jupyterlab_git
 

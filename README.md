@@ -1,10 +1,22 @@
-# PyData Berlin December 2018 Meetup
+# A Tour of JupyterLab Extensions
 
-## 10 JupyterLab Extensions in 10 Minutes
+## PyConDE & PyData Berlin 2019
 
-A tour of JupyterLab extensions you might not have heard of. Check them out on Binder!
+### 2019-10-10
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/10-minutes-10-jlab-extensions/master?urlpath=lab/tree/presentation.ipynb)
+This presentation is an extended (and updated!) version of the lightning talk given at the PyData Berlin Meetup (December 2018).
+
+JupyterLab extensions greatly improve the user experience when it comes to working with Jupyter Notebook and Data Science workflows. The extension mechanism lets third-party developers write their own extensions and contribute back to the Jupyter ecosystem.
+
+There is now a growing number of these extensions which provide IDE-like features such as: git integration, code formatting, table of content, diagram editor, and many more.
+
+The goal of this presentation is to complement the online documentation by doing a demo of a curated list of these JupyterLab extensions. All happening in JupyterLab.
+
+### Layout
+
+- Introduction to JupyterLab extensions: what are they and why are they useful? [5 min]
+- Demo of 20 JupyterLab extensions in 20 minutes [20 min]
+- What's next and questions? [5 min]
 
 ## Local Setup
 

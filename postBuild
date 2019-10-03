@@ -13,7 +13,9 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              jupyterlab-system-monitor \
                              jupyterlab-topbar-text \
                              jupyterlab-logout \
-                             jupyterlab-theme-toggle
+                             jupyterlab-theme-toggle \
+                             jupyterlab-sql \
+                             jupyterlab_code_formatter
 
 jupyter serverextension enable --py jupyterlab_git
 

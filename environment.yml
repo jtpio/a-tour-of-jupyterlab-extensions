@@ -8,6 +8,7 @@ dependencies:
 - python=3.7
 - pip:
   - jupyterlab-git
+  - jupyterlab_code_formatter
   - jupyterlab-quickopen
   - sidecar
 

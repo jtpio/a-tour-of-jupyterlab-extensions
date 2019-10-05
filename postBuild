@@ -1,8 +1,6 @@
 jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              @jupyterlab/git \
-                             @jupyterlab/github \
                              @jupyterlab/toc \
-                             jupyterlab-python-file \
                              jupyterlab-python-bytecode \
                              jupyterlab-kernelspy \
                              @jupyter-widgets/jupyterlab-sidecar \
@@ -14,8 +12,11 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              jupyterlab-topbar-text \
                              jupyterlab-logout \
                              jupyterlab-theme-toggle \
-                             jupyterlab-sql \
-                             jupyterlab_code_formatter
+                             jupyterlab_code_formatter \
+                             @jupyter-voila/jupyterlab-preview \
+                             @telamonian/theme-darcula
 
 jupyter serverextension enable --py jupyterlab_git
+jupyter serverextension enable --py jupyterlab_code_formatter
+jupyter serverextension enable --py jupyterlab_sql
 

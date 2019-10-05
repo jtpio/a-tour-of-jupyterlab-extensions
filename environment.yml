@@ -2,6 +2,7 @@ name: pydata-berlin-2019
 channels:
 - conda-forge
 dependencies:
+- ipyleaflet
 - jupyterlab=1
 - nbdime
 - pip
@@ -10,5 +11,6 @@ dependencies:
   - jupyterlab-git
   - jupyterlab_code_formatter
   - jupyterlab-quickopen
+  - jupyterlab_sql
   - sidecar
 

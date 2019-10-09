@@ -3,6 +3,7 @@ channels:
 - conda-forge
 dependencies:
 - black
+- ipycanvas
 - ipyleaflet
 - jupyterlab=1
 - nbdime
@@ -14,5 +15,6 @@ dependencies:
   - jupyterlab_code_formatter
   - jupyterlab-quickopen
   - jupyterlab_sql
+  - nbresuse
   - sidecar
 

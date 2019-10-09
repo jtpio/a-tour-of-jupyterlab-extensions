@@ -14,6 +14,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              @ryantam626/jupyterlab_code_formatter \
                              @jupyter-voila/jupyterlab-preview \
                              @oriolmirosa/jupyterlab_materialdarker \
+                             ipycanvas \
                              --no-build
 
 jupyter serverextension enable --py jupyterlab_git

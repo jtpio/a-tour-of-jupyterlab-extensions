@@ -1,5 +1,7 @@
 # A Tour of JupyterLab Extensions
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/a-tour-of-jupyterlab-extensions/master?urlpath=lab%2Ftree%2Fpresentation.ipynb)
+
 ## PyConDE & PyData Berlin 2019
 
 ### 2019-10-10
